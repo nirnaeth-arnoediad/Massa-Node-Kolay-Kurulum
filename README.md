@@ -28,8 +28,9 @@ wallet_add_secret_keys secret_keyiniz
 wallet_info
 exit
 ```
-Daha sonra `nano` komutu ile sunucumuzun public IP sini kayıt edeceğimiz config dosyasını oluşturalım.
+Daha sonra cd ile başlangıç yoluna dönüp  `nano` komutu ile sunucumuzun public IP sini kayıt edeceğimiz config dosyasını oluşturalım.
 ```
+cd
 nano ~/massa/massa-node/config/config.toml
 ```
 Ardından aşağıdaki  kısmı yapıştırıp xx li kısmı IP miz ile değiştirelim. Düzenledikten sonra ctrl + o, enter, ctrl + x ile çıkış yapalım.
@@ -54,7 +55,7 @@ Aşağıdaki kısmı dosya içerisine yapıştıralım. şifreniz yazan yere nod
 [Service]
 	User=root
 	WorkingDirectory=/root/massa/massa-node
-	ExecStart=/home/root/massa/massa-node/massa-node -p şifreniz
+	ExecStart=/root/massa/massa-node/massa-node -p şifreniz
 	Restart=on-failure
 	RestartSec=3
 	LimitNOFILE=65535
