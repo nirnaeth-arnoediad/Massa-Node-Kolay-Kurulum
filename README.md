@@ -88,11 +88,6 @@ cd ~/massa/massa-client
 ./massa-client -p şifreniz
 get_status
 ```
-şimdi clientteyken cüzdanımızı node a ekleyelim. 
-```
-wallet_add_secret_keys secret_keyiniz
-wallet_info
-```
 Şimdi roll almamız gerekiyor massada roll almak demek diğer ağlardaki stake işlemine denk düşüyor. 1 roll 100 mas değerinde bu işlem anında herhangş birşey harcamıyoruz ve eğer bir sıkıntı olur node durur ise rollerimizin mas karşılığı cüzdanımıza otomatik olarak geliyor herhangi bir kaybımız olmuyor. roll_adedi yazan yere sayı ile miktarı giriniz
 ```
 buy_rolls cüzdan_adtesi roll_adedi 0
