@@ -32,7 +32,7 @@ Sıradaki komut ile sunucumuzun public IP sini kayıt edeceğimiz config dosyas�
 ```
 nano ~/massa/massa-node/config/config.toml
 ```
-Ardından aşağıdaki  kısmı yapıştırıp xx li kısmı IP miz ile değiştirelim.
+Ardından aşağıdaki  kısmı yapıştırıp xx li kısmı IP miz ile değiştirelim. Düzenledikten sonra ctrl +o, enter, ctrl +x ile çıkış yapalım.
 ```
 [protocol]
 routable_ip="xx.xx.xx.xx"
@@ -46,7 +46,7 @@ Sıradaki komut ile massa service dosyasını oluşturalım.
 ```
 sudo nano /etc/systemd/system/massad.service
 ```
-Aşağıdaki kısmı dosya içerisine yapıştıralım. şifreniz yazan yere node için de bir şifre girelim cüzdan şifresi ile aynı olabilir. 
+Aşağıdaki kısmı dosya içerisine yapıştıralım. şifreniz yazan yere node için de bir şifre girelim cüzdan şifresi ile aynı olabilir. Düzenledikten sonra ctrl +o, enter, ctrl +x ile çıkış yapalım.
 ```
 [Unit]
 	Description=Massa Node
