@@ -2,7 +2,7 @@
 
 Massa-Node Sistem Servisi Olarak Kurulumu. Kurulum Ubuntu 22.04 amd64 ve arm64 versiyonları için geçerlidir.
 
-Öncelikle Home lokasyonuna dönelim ve sistemimize uygun en güncel node versiyonunu indirelim ve arşivden çıkartalım. Ardindan arşiv dosyasını silelim. https://github.com/massalabs/massa/releases adresinden kontrol edebilirsiniz.
+Öncelikle `sudo -i` ile root kullanıcıya geçelim `cd` ile başlangıç konumuna dönelim `wget` ile sistemimize uygun en güncel node versiyonunu indirelim ve `tar` arşivden çıkartalım. Ardindan arşiv dosyasını `rm` silelim. `arch` komutunun çıktısı `x86_64` ise sistemimiz amd64, `aarch64` ise sistemimiz arm64 demektir. En güncel massa versiyonunu https://github.com/massalabs/massa/releases adresinden kontrol edebilirsiniz.
 
 amd64 için 
 ```
