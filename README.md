@@ -14,6 +14,7 @@ rm massa_MAIN.2.1_release_linux.tar.gz
 ```
 arm64 için
 ```
+sudo -i
 cd
 wget https://github.com/massalabs/massa/releases/download/MAIN.2.1/massa_MAIN.2.1_release_linux_arm64.tar.gz
 tar -xvf massa_MAIN.2.1_release_linux_arm64.tar.gz
