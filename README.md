@@ -28,7 +28,7 @@ wallet_add_secret_keys secret_keyiniz
 wallet_info
 exit
 ```
-Sıradaki komut ile sunucumuzun public IP sini kayıt edeceğimiz config dosyasını oluşturalım.
+Daha sonra `nano` komutu ile sunucumuzun public IP sini kayıt edeceğimiz config dosyasını oluşturalım.
 ```
 nano ~/massa/massa-node/config/config.toml
 ```
