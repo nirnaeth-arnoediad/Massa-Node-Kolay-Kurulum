@@ -20,7 +20,7 @@ wget https://github.com/massalabs/massa/releases/download/MAIN.2.1/massa_MAIN.2.
 tar -xvf massa_MAIN.2.1_release_linux_arm64.tar.gz
 rm massa_MAIN.2.1_release_linux_arm64.tar.gz
 ```
-Bir defaya mahsus `secret_keyiniz` yazan yere cüzdanımızın sevret keyini girerek import edelim. Clienti ilk çalıştırma esnasında cüzdan şifremizi oluşturalım ve saklayalım.
+Bir defaya mahsus `secret_keyiniz` yazan yere cüzdanımızın secret keyini girerek import edelim. Clienti ilk çalıştırma esnasında cüzdan şifremizi oluşturalım ve saklayalım.
 ```
 cd massa/massa-client
 ./massa-client -p şifreniz
